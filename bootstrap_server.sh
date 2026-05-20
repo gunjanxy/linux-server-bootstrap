@@ -25,6 +25,11 @@ echo ""
 echo "Running firewall setup..." 
 
 bash scripts/firewall_setup.sh
+
+echo ""
+echo "Running SSH hardening..."
+
+bash scripts/ssh_hardening.sh
  
 echo "" 
 echo "Bootstrap completed successfully."
