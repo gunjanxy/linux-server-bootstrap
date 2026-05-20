@@ -20,6 +20,11 @@ echo ""
 echo "Running Docker installation..."
 
 bash scripts/install_docker.sh
+
+echo "" 
+echo "Running firewall setup..." 
+
+bash scripts/firewall_setup.sh
  
 echo "" 
 echo "Bootstrap completed successfully."
