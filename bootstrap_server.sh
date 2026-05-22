@@ -30,6 +30,11 @@ echo ""
 echo "Running SSH hardening..."
 
 bash scripts/ssh_hardening.sh
+
+echo ""
+echo "Running Fail2Ban setup..."
+
+bash scripts/fail2ban_setup.sh
  
 echo "" 
 echo "Bootstrap completed successfully."
