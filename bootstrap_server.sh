@@ -35,6 +35,11 @@ echo ""
 echo "Running Fail2Ban setup..."
 
 bash scripts/fail2ban_setup.sh
+
+echo ""
+echo "Running nginx reverse proxy setup..."
+
+bash scripts/nginx_reverse_proxy.sh
  
 echo "" 
 echo "Bootstrap completed successfully."
