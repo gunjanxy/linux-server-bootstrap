@@ -1,79 +1,162 @@
-````md id="t7v2xd"
 # Linux Server Bootstrap Automation
 
-A beginner DevOps automation project written in Bash.
+A beginner-friendly Linux server automation project built using Bash scripting.
 
-This project automates basic Linux server setup tasks such as:
-- updating packages
-- installing nginx
-- installing curl and git
-- enabling system services
+This repository is created for learning and practicing Linux administration, Bash scripting, server provisioning, and basic DevOps concepts.
+
+The project contains automation scripts for common Linux server setup tasks such as:
+
+* package installation
+* user creation
+* SSH hardening
+* firewall configuration
+* Docker installation
+* nginx reverse proxy setup
+* Fail2Ban configuration
+
+Some scripts are inspired by official documentation and real-world server provisioning practices and are being used for educational purposes while learning DevOps and Linux automation.
 
 ---
 
-# Features
+# Project Goals
 
-- Automated package installation
-- nginx setup
-- Service management using systemctl
-- Bash scripting automation
-- Beginner-friendly DevOps project structure
+The main goal of this project is to practice:
+
+* Linux system administration
+* Bash scripting
+* service management using systemd
+* server security basics
+* automation concepts used before tools like Ansible/Terraform
+
+This is a learning project and not a production-ready framework.
+
+---
+
+# Current Features
+
+## Server Setup & Automation
+
+* Basic server bootstrap automation
+* Package installation using apt
+* Service management using systemctl
+
+## Security
+
+* SSH hardening
+* Firewall setup
+* Fail2Ban installation and configuration
+
+## Web Server & Reverse Proxy
+
+* nginx installation
+* nginx reverse proxy configuration
+
+## Container Tools
+
+* Docker installation automation
 
 ---
 
 # Technologies Used
 
-- Bash Shell Scripting
-- Ubuntu Linux / WSL
-- systemd
-- apt package manager
-- Git & GitHub
+* Bash Shell Scripting
+* Ubuntu Linux / WSL
+* systemd
+* nginx
+* Docker
+* UFW / iptables
+* Git & GitHub
 
 ---
 
 # Project Structure
 
+```text
 linux-server-bootstrap/
+│
 ├── bootstrap_server.sh
-└── README.md
-
----
-
-# How to Run
-
-## Give execute permission
-
-```bash
-chmod +x bootstrap_server.sh
-````
-
-## Run the script
-
-```bash
-./bootstrap_server.sh
+├── README.md
+│
+├── scripts/
+│   ├── install_nginx.sh
+│   ├── install_docker.sh
+│   ├── user_setup.sh
+│   ├── firewall_setup.sh
+│   ├── ssh_hardening.sh
+│   ├── fail2ban_setup.sh
+│   └── nginx_reverse_proxy.sh
+│
+├── configs/
+└── docs/
 ```
 
 ---
 
-# What This Script Does
+# Current Status
 
-1. Updates package list
-2. Installs nginx
-3. Installs curl and git
-4. Enables nginx service
-5. Starts nginx service
+Currently, the project mainly contains Bash automation scripts for learning and experimentation.
+
+Future improvements may include:
+
+* configuration templates
+* logging improvements
+* Ansible playbooks
+* Docker Compose setups
+* Terraform integration
+* CI/CD automation
 
 ---
 
-# Future Improvements
+# How to Run Scripts
 
-* Docker installation automation
-* Firewall configuration
-* SSH hardening
-* User management automation
-* Fail2ban setup
-* Logging support
-* Multi-distribution support
+## Give execute permission
+
+```bash
+chmod +x script_name.sh
+```
+
+Example:
+
+```bash
+chmod +x scripts/install_nginx.sh
+```
+
+---
+
+## Run the script
+
+```bash
+./scripts/install_nginx.sh
+```
+
+Some scripts may require sudo privileges:
+
+```bash
+sudo ./scripts/install_nginx.sh
+```
+
+---
+
+# Important Notes
+
+* These scripts are created for learning and practice purposes.
+* Always test automation scripts in a VM, WSL, or non-production environment first.
+* Some scripts modify important system configurations such as SSH, firewall, and nginx settings.
+* Read and understand scripts before executing them on real servers.
+
+---
+
+# Learning Focus
+
+This project helped practice concepts such as:
+
+* Linux permissions
+* systemctl and services
+* SSH configuration
+* reverse proxies
+* package management
+* Bash scripting
+* infrastructure automation basics
 
 ---
 
@@ -81,7 +164,4 @@ chmod +x bootstrap_server.sh
 
 Gunjan Jain
 
-GitHub: https://github.com/gunjanxy
-
-```
-```
+Learning Linux, DevOps, and Infrastructure Automation.
