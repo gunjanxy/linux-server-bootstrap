@@ -6,11 +6,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
 ![MIT License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
-A beginner-friendly Linux server automation project built using Bash scripting.
-
-## Environment Tested
-
-Tested primarily in WSL Ubuntu environment
+A beginner-friendly Linux server automation project built using Bash scripting, tested on WSL2 Ubuntu 22.04
 
 This repository is created for learning and practicing Linux administration, Bash scripting, server provisioning, and basic DevOps concepts.
 
