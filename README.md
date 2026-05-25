@@ -64,7 +64,7 @@ This is a learning project and not a production-ready framework.
 ---
 ## How It Works
 
-![Bootstrap Flow](bootstrap_server_flowchart.svg
+![Bootstrap Flow](bootstrap_server_flowchart.svg)
 
 # Technologies Used
 
