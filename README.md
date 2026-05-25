@@ -8,6 +8,10 @@
 
 A beginner-friendly Linux server automation project built using Bash scripting.
 
+## Environment Tested
+
+Tested primarily in WSL Ubuntu environment
+
 This repository is created for learning and practicing Linux administration, Bash scripting, server provisioning, and basic DevOps concepts.
 
 The project contains automation scripts for common Linux server setup tasks such as:
