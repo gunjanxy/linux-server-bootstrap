@@ -145,32 +145,6 @@ sudo ./scripts/install_nginx.sh
 ```
 
 ---
-## Screenshots
-
-### Bootstrap Automation
-
-![Bootstrap Automation](images/bootstrap_start.png)
-
----
-
-### Docker Installation Verification
-
-![Docker Version 1](images/docker_version1.png)
-
-![Docker Version 2](images/docker_version2.png)
-
----
-
-### SSH Hardening
-
-![SSH Hardening](images/ssh.png)
-
----
-
-### Firewall Status
-
-![UFW Status](images/ufw_status.png)
-
 # Important Notes
 
 * These scripts are created for learning and practice purposes.
